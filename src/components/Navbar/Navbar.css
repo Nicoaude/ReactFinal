@@ -1,0 +1,32 @@
+.navbar{
+    border-bottom: .5px solid #4a4a4a;
+}
+
+.botonPrincipalNavBar{
+    font-size: 2rem;
+    background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color: rgb(255, 255, 255);
+	font-family:Arial;
+	text-decoration:none;
+    border: none;
+    font-size: 1.5rem;
+    font-family: var(--bs-body-font-family);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding-right: 1.5rem;
+}
+
+.botonPrincipalNavBar:hover {
+    color: #01f603;
+}
+.botonPrincipalNavBar:active {
+	position:relative;
+	top:1px;
+}
+
+.navbarPersonal{
+    background-color: rgb(23, 1, 72);
+    border: none;
+}

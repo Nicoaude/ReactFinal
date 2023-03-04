@@ -1,0 +1,206 @@
+.cardProducto {
+    margin: 30px;
+    width: 18rem;
+    text-align: center;
+}
+
+.cardProductoDetail {
+    margin: 30px;
+    width: 18rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardProductoDetailDark{
+    margin: 30px;
+    width: 18rem;
+    text-align: center;
+}
+
+.cardProductoDark{
+    margin: 30px;
+    width: 18rem;
+    text-align: center;
+}
+
+.contenedorCardsProductos{
+    margin-top:120px;
+    justify-content: center;
+}
+
+.itemDetail{
+    width: 20rem;
+    margin-top: 150px;
+}
+
+.espaciadoNav{
+    margin-top: 130px;
+}
+
+.formCheckout{
+    margin-left: 30%;
+    margin-bottom: 30%;
+    margin-right: 30%;
+}
+ 
+.contadorCarrito{
+    position: relative;
+    left: 20%;
+}
+
+.cardBodyDark{
+    background-color: white;
+    text-align: center;
+    color: rgb(2, 2, 84);
+}
+
+.darkMode{
+    color: white;
+    background-color: black;
+}
+
+.carritoVacio{
+    text-align: center;
+}
+
+.cartList{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.cartItemDarkColor{
+    color: rgb(2, 2, 84); 
+}
+
+.colorMensajeCheckout{
+    color: red;
+}
+
+.cardCart {
+    margin: 30px;
+}
+
+.botonesCarrito{
+    margin: 3px;
+}
+
+
+.botonPrincipalNavBar{
+    font-size: 2rem;
+}
+
+.botonesNavBar {
+	background-color:transparent;
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	text-decoration:none;
+    border: none;
+    font-size: 1.5rem;
+    font-family: var(--bs-body-font-family);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.botonesNavBar:hover {
+    color: black;
+}
+.botonesNavBar:active {
+	position:relative;
+	top:1px;
+}
+
+.imagenCard{
+    width: 250px;
+    height: 250px;
+}
+
+.cardBody{
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.btn-card{
+    background-color:#7200ff;
+ border-radius:12px;
+ color:#fff;
+ display:flex;
+ justify-content:center;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:.5em;
+ text-align:center;
+ width:90%
+}
+
+.btn-card a{
+    color:#fff;
+ font-weight:700;
+ letter-spacing:.6px;
+ padding:10px;
+ text-transform:uppercase;
+ transition:.2s;
+ width:100%
+}
+
+.btn-card:hover{
+    background-color:#5200b7;
+ transition:.2s
+}
+
+.botonesMasMenosCantidad{
+    margin: 2px;
+}
+
+.botonMas{
+    margin-left: 20px;
+    border-radius: 0 5px 5px 0;
+    background-color: hsla(240, 2%, 50%, 0.15);
+    border: none;
+    font-size: 10px;
+    padding: 7.5px 15px;
+}
+
+.botonMenos{
+    margin-right: 20px;
+    border-radius: 5px 0 0 5px;
+    background-color: hsla(240, 2%, 50%, 0.15);
+    border: none;
+    font-size: 10px;
+    padding: 7.5px 15px;
+}
+
+
+.estiloMensaje{
+    margin-top: 80px;
+}
+
+
+/* BS STYLE */
+
+.btn{
+    border-radius: 0;
+}
+
+.btn-primary{
+    border-radius: 4px;
+    background-color: #0084e0;
+    border: 1px solid transparent;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 2px solid #016ab3;
+    color: #fff;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    outline: none;
+    padding: 0.5em;
+    width: 12em;
+}
