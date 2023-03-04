@@ -1,5 +1,5 @@
 # 👋 Proyecto Final React ⚛️
-_Proyecto final del curso de React. Comisión 39525_
+_Proyecto final del curso de React._
 
 ### Requisitos 📋
 
